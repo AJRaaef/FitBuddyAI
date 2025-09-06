@@ -1,0 +1,79 @@
+{
+    "model_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 500,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "classes": [
+        "Maintain Fitness",
+        "Muscle Building",
+        "Weight Gain",
+        "Weight Loss"
+    ],
+    "label_encoders": {
+        "Gender": {
+            "Female": 0,
+            "Male": 1
+        },
+        "BMI Category": {
+            "Normal weight": 0,
+            "Obese Class I": 1,
+            "Obese Class II": 2,
+            "Obese Class III": 3,
+            "Overweight": 4,
+            "Underweight": 5
+        },
+        "Activity Level": {
+            "Lightly Active": 0,
+            "Moderately Active": 1,
+            "Sedentary": 2,
+            "Very Active": 3
+        },
+        "Dietary Preference": {
+            "Non-Vegetarian": 0,
+            "Omnivore": 1,
+            "Vegan": 2,
+            "Vegetarian": 3
+        },
+        "Disease": {
+            "Diabetes": 0,
+            "Diabetes, Fatty Liver": 1,
+            "Diabetes, High Cholesterol": 2,
+            "Diabetes, High Cholesterol, Fatty Liver": 3,
+            "Fatty Liver": 4,
+            "High Cholesterol": 5,
+            "High Cholesterol, Fatty Liver": 6,
+            "Hypertension": 7,
+            "Hypertension, Diabetes": 8,
+            "Hypertension, Diabetes, Fatty Liver": 9,
+            "Hypertension, Diabetes, High Cholesterol": 10,
+            "Hypertension, Diabetes, High Cholesterol, Fatty Liver": 11,
+            "Hypertension, Fatty Liver": 12,
+            "Hypertension, High Cholesterol": 13,
+            "Hypertension, High Cholesterol, Fatty Liver": 14,
+            "No Disease": 15
+        }
+    },
+    "target_encoder": {
+        "Maintain Fitness": 0,
+        "Muscle Building": 1,
+        "Weight Gain": 2,
+        "Weight Loss": 3
+    }
+}
